@@ -24,4 +24,4 @@ Site de portfólio pessoal.
 
 <h2> Design </h2>
 
-![giphy1](https://media.giphy.com/media/UqXzNw78waXXtlOzme/giphy.gif)
+![giphy2](https://media.giphy.com/media/UqXzNw78waXXtlOzme/giphy.gif)

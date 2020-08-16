@@ -12,7 +12,7 @@ Site de portfólio pessoal.
 
 - Plataforma para apresentar o profissional. Usei uma temática diferente pra deixar mais atrativo. Aqui a idéia foi 'brincar' um pouquinho com conceitos visuais da aplicação.
 
-<h2> Conceitos treinados:</h2>
+<h2> Conceitos treinados :books:</h2>
 
 - Animations :heavy_check_mark:
 - UX :heavy_check_mark:

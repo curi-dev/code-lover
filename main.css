@@ -1,0 +1,264 @@
+/* Reset CSS */
+
+:root {
+
+    --color-primary: rgb(105, 209, 36);
+    --color-secondary: rgb(167, 63, 167);
+    --color-border: rgb(136, 134, 134);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Main content */
+
+#back-video {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -100;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#page-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "landing landing image"    
+}
+
+.page-header {
+    grid-area: header;    
+}
+
+
+#left-container {
+    grid-area: landing;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#left-container span {
+    font: 700 39pt Archivo;
+    color: white;
+
+    align-self: initial;
+}
+
+#left-container .icons-container {
+
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#left-container #animated-container {
+    margin-right: 150%;
+    margin-bottom: .5rem;
+    animation: moveInside .25s linear 4s forwards;
+    transition: transform .2s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#left-container #animated-container p {
+    font: 500 1.6rem Poppins;
+    visibility: hidden;
+
+    animation: specialFade 1s 4.5s linear forwards, blinking .7s 5.6s infinite ease-in-out; 
+    /* Tentar diminuir número de animações iguais */
+}
+
+#right-container {
+    grid-area: image;
+    display: flex;
+    align-items: flex-end; 
+
+    position: relative;
+}
+
+#right-container img {
+    margin-left: -50px;
+
+    transition: filter .6s;
+    animation: fadeIn 3.5s linear;
+}
+
+.btn-about {
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    --color-neon-shadow: var(--color-primary);
+    filter: drop-shadow(0 0 5px var(--color-neon-shadow));
+    
+    z-index: 10;
+    transition: transform .3s;
+
+    animation: fadeInButton 6.8s forwards, neon 1.2s 5s infinite alternate linear;
+}
+
+.expansible {
+    z-index: 10;
+    position: absolute;
+}
+
+#right-container #skills {
+    top: 5.9rem;
+    left: 14.3rem;
+}
+
+#right-container #profile {
+    top: 17rem;
+    left: 14.3rem;
+}
+
+#right-container #passions {
+    top: 28.5rem;
+    left: 14.3rem;
+}
+
+.btn-about:hover {
+    transform: scale(1.5);
+    background-color: var(--color-secondary);
+
+    --color-neon-shadow: var(--color-secondary);
+
+}
+
+#btn-skills:hover::after {
+    content: "My skills";
+    display: block;
+
+    width: 5.5rem;
+    border: none;
+    border-radius: 1.2rem;
+
+    background-color: var(--color-secondary);
+
+    margin-top: 1.3rem;
+    padding: .3rem .2rem;
+
+    font: .8rem Archivo;
+    color: white;
+}
+
+#btn-profile:hover::after {
+    content: "Who am I";
+    display: block;
+
+    width: 5.5rem;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: var(--color-secondary);
+
+    margin-top: 1.3rem;
+    padding: .3rem .2rem;
+
+    font: .8rem Archivo;
+    color: white;
+}
+
+#btn-passions:hover::after {
+    content: "My dreams";
+    display: block;
+
+    width: 5.5rem;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: var(--color-secondary);
+
+    margin-top: 1.3rem;
+    padding: .3rem .2rem;
+
+    font: .8rem Archivo;
+    color: white;
+}
+
+
+/* All animations */
+
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1; 
+    }
+}
+
+@keyframes fadeInButton {
+    0% { 
+        opacity: 0; 
+    }
+    50% { 
+        opacity: 0; 
+        
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveInside {
+    from { margin-right: 150%; }
+
+    to { margin-right: 0%; }
+}
+
+
+@keyframes neon {
+    from { filter: drop-shadow(0 0 5px var(--color-neon-shadow)) }
+
+    to { filter: drop-shadow(0 0 23px var(--color-neon-shadow)) }
+}
+
+@keyframes specialFade {
+    from { 
+        visibility: visible; 
+        opacity: 0;
+    }
+
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes blinking {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+

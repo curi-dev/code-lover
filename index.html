@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myself</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <video autoplay loop muted id="back-video">
+        <source src="_assets/videos/ink-smoke.mp4" type='video/mp4'>
+        <source src="_assets/videos/ink-smoke.webm" type='video/webm'>    
+        Your browser doesn´t support this type of files.
+    </video>
+
+    <div id="page-container">
+        
+        <header class="page-header">
+            <div class="header-content">
+                Aqui virá uma menu de navegação 
+            </div>
+        </header>
+        
+        <div class="content-container" id="left-container">
+            
+            <span>
+                Sometimes you feel lonely. <br>
+                So you code.
+            </span>
+            <div id="animated-container">
+                <img src="_assets/small-bunny.png" alt="Coelho">
+                <p>Follow the rabbit</p>
+            </div>
+            <div class="icons-container">
+                <img src="_assets/icons/linkedin.png" alt="Linkedin">
+                <img src="_assets/icons/instagram.png" alt="Instagram">
+                <img src="_assets/icons/facebook.png" alt="Facebook">
+            </div>               
+        </div>
+        
+        <div class="content-container" id="right-container">
+            <a href="" class="expansible" id="skills">
+                <button 
+                onmouseover="addBlurEffect()" 
+                onmouseout="removeBlurEffect()" 
+                type="button" class="btn-about" id="btn-skills"></button> 
+            </a>
+            <a href="" class="expansible" id="profile">
+                <button 
+                onmouseover="addBlurEffect()" 
+                onmouseout="removeBlurEffect()" 
+                type="button" class="btn-about" id="btn-profile"></button>
+            </a>
+            <a href="" class="expansible" id="passions">
+                <button 
+                onmouseover="addBlurEffect()" 
+                onmouseout="removeBlurEffect()" 
+                type="button" class="btn-about" id="btn-passions"></button>
+            </a>
+            
+            <img id="blur-image" src="_assets/me-two.png" alt="Homem de capuz">   
+        
+        </div>
+
+    </div>
+
+    <script src="./activatedEffect.js"></script>
+</body>
+</html>

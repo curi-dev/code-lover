@@ -24,4 +24,4 @@ Site de portfólio pessoal.
 
 <h2> Design </h2>
 
-![giphy3](https://giphy.com/gifs/UqXzNw78waXXtlOzme)
+<iframe src="https://giphy.com/embed/UqXzNw78waXXtlOzme" width="480" height="206" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/UqXzNw78waXXtlOzme">via GIPHY</a></p>

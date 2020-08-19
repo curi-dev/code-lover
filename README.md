@@ -19,8 +19,6 @@ Site de portfólio pessoal.
 - Alteração de propriedades com JavaScript :heavy_check_mark:
 - Grid :heavy_check_mark:
 - Flexbox :heavy_check_mark:
-- MVC :heavy_check_mark:
-
 
 <h2> Design </h2>
 

@@ -1,4 +1,4 @@
-# Code-lover { projeto AUTORAL }
+# Code-lover 
 
 > Status: em desenvolvimento :warning:
 

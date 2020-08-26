@@ -2,6 +2,11 @@
 
 > Status: em desenvolvimento :warning:
 
+> Level-rate: :star::star: 
+
+OBS: O level-rate é a minha percepção sobre a relação entre o nível de conhecimento aplicado neste projeto ao meu nível de conhecimento atual. Valores possíveis: de uma a cinco estrelas.
+
+
 
 <h2> Sobre a aplicação:</h2>
 

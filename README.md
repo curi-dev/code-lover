@@ -10,7 +10,7 @@ OBS: O level-rate é a minha percepção sobre a relação entre o nível de con
 
 <h2> Sobre a aplicação:</h2>
 
-Site temático para apresentar portfólio pessoal e perfil profissional. 
+Home temática para apresentar portfólio pessoal e perfil profissional. 
 
 
 <h2> Funcionalidades:</h2>

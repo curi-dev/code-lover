@@ -1,6 +1,6 @@
 # Code-lover 
 
-> Status: em desenvolvimento :warning:
+> Status: Finalizado :heavy_check_mark:
 
 > Level-rate: :star::star::star:  
 
@@ -10,12 +10,8 @@ OBS: O level-rate é a minha percepção sobre a relação entre o nível de con
 
 <h2> Sobre a aplicação:</h2>
 
-Home temática para apresentar portfólio pessoal e perfil profissional. 
+Homepage temática para apresentação pessoal e perfil profissional. 
 
-
-<h2> Funcionalidades:</h2>
-
-- Plataforma para apresentar o profissional. Usei uma temática diferente pra deixar mais atrativo. Aqui a idéia foi 'brincar' um pouquinho com conceitos visuais da aplicação.
 
 <h2> Conceitos treinados :books:</h2>
 
